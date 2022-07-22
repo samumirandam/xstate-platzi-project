@@ -1,4 +1,4 @@
-import BaseLayout from "./components/base-layout";
+import BaseLayout from "./containers/base-layout";
 
 import "./App.css";
 
