@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/xstate-platzi-project/static/css/main.bdfc1158.css",
+    "main.js": "/xstate-platzi-project/static/js/main.f2dad899.js",
+    "static/media/background-travel-2.jpg": "/xstate-platzi-project/static/media/background-travel-2.1b3bc05ab3ab53a29ab2.jpg",
+    "index.html": "/xstate-platzi-project/index.html",
+    "main.bdfc1158.css.map": "/xstate-platzi-project/static/css/main.bdfc1158.css.map",
+    "main.f2dad899.js.map": "/xstate-platzi-project/static/js/main.f2dad899.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdfc1158.css",
+    "static/js/main.f2dad899.js"
+  ]
+}
