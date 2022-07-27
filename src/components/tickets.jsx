@@ -6,8 +6,8 @@ export const Tickets = ({ send, state }) => {
     send("FINISH");
   };
 
-  const { selectedCountry } = state.context;
-  
+  const { selectedCountry, passengers } = state.context;
+
   return (
     <div className="Tickets">
       <p className="Tickets__description description">
@@ -17,6 +17,9 @@ export const Tickets = ({ send, state }) => {
         <div className="Tickets__country">{selectedCountry}</div>
         <div className="Tickets__passengers">
           <span>✈</span>
+          {passengers.map((person, index) => {
+            return <p key={index}>{person}</p>;
+          })}
         </div>
       </div>
       <button onClick={finish} className="Tickets__finalizar button">

@@ -9,7 +9,7 @@ export const Nav = ({ state, send }) => {
   return (
     <nav className="Nav">
       <h1 className="Nav__logo">Book a fly ✈</h1>
-      {!state.matches("initial") && (
+      {!state.matches("initial") && !state.matches("tickets") && (
         <button onClick={goToWelcome} className="Nav__cancel button--secondary">
           Cancelar
         </button>
